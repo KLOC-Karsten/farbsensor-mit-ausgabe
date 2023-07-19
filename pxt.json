@@ -1,0 +1,26 @@
+{
+    "name": "Farbsensor mit Ausgabe",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "Farbfunktionen": "github:kloc-karsten/farbfunktionen#master",
+        "RGB-Color-Sensor": "github:calliope-edu/pxt-TCS34725FN#af260ea5717ba64e50e1dc77f411fb41093494e8",
+        "display": "github:calliope-edu/pxt-display#1f732758e1f0903be78ed912f58d8a49519f422b"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.35",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
